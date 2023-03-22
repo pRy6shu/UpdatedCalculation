@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 0px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background-color: pink;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.Button {
+    position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Button:after {
+  content: "";
+  background: greenyellow;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.Button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.button:hover{
+    box-shadow: 0 8px 16px 0 blue, 0 6px 20px 0 blue;
+}
+.Button:hover{
+    box-shadow: 0 8px 16px 0 green, 0 6px 20px 0 greenyellow;
+}
+.button{
+    height: 10vh;
+    width: 19vw;
+    display: grid;
+    align-items: center;
+    background-color: aqua;
+}
+.Button{
+    height: 12vh;
+    background-color: burlywood;
+}
+.Btn {
+    position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  width: 160px;
+}
+
+.Btn:after {
+  content: "";
+  background: greenyellow;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.Btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.Btn:hover{
+    box-shadow: 0 8px 16px 0 blue, 0 6px 20px 0 green;
+}
+.dark-mode{
+ background-color: black;
+ color
+ : brown;
+}
+.note{
+    color: white;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>    
+<script src="start.js"></script>
+<h2>Welcome-My Friend,I see you have stumbled upon my website.Good,what do you want to do?
+<button class="Btn"onclick="myFunction()">Toggle dark mode</button></h2>
+<button class="button"><a href="Main.html">Go to calculator</a></button>
+<br><button class="Button" width:100px><a href="important terms.html">Important Terms</a></button>
+<div class="note">
+Sorry to disturb you my Friend,But I suggest you to start using our calculator after seeing the important terms first
+</div>
+</body>
+</html>
+
+
